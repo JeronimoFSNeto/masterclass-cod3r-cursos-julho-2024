@@ -17,6 +17,14 @@ export default function MenuPrincipal() {
           <IconApps />
           <span>Componente Página</span>
         </MenuItem>
+        <MenuItem link="/card">
+          <IconApps />
+          <span>Componente Card</span>
+        </MenuItem>
+        <MenuItem link="/estado">
+          <IconApps />
+          <span>Componente com Estado</span>
+        </MenuItem>
       </nav>
     </aside>
   );
