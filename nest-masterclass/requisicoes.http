@@ -1,0 +1,25 @@
+GET http://localhost:3000/app/hello
+
+###
+GET http://localhost:3000/app
+
+###
+GET http://localhost:3000/usuario
+
+###
+GET http://localhost:3000/usuario/todos
+
+###
+GET http://localhost:3000/usuario/1
+
+
+
+###
+POST http://localhost:3000/usuario/
+content-type: application/json
+{
+"nome": "Jeronimo Ferreira",
+"email": "jeronimo@solmakertech.com",
+"senha": "@123456"
+}
+
